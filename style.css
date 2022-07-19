@@ -1,0 +1,223 @@
+body
+{
+	background: url(background.jpg);
+	background-size: cover;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+}
+
+.content
+{
+	width: 100%;
+}
+
+.logo_container
+{
+	width:90%;
+	background-color:rgba(0,0,0,0.7);
+	
+	position: fixed;
+	top:0;
+	left:5%;
+	z-index:100;
+	
+	border:1px solid #66757f;
+	
+	display: flex;
+	justify-content: center;
+}
+
+.logo_container:hover
+{
+	border: 1px solid #8899a6;
+	cursor: pointer;
+}
+
+.top_post
+{
+	padding-top:103px;
+}
+
+.post
+{
+	text-align:center;
+	font-size:30px;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	width:90%;
+	background-color:rgba(0,0,0,0.7);
+	
+	position: absolute;
+	left:5%;
+	
+	display: flex;
+	justify-content: center;
+	
+	border-radius:0px 0px 5px 5px;
+	border:1px solid #66757f;
+}
+
+.bottom_post
+{
+	display: flex;
+	justify-content: center;
+	
+	display: flex;
+	justify-content: center;
+	
+	padding-bottom:120px;
+	padding-top:60px;
+}
+
+.subscription
+{
+	text-align:center;
+	
+	width:90%;
+	background-color:rgba(0,0,0,0.7);
+	
+	position: fixed;
+	bottom:64px;
+	left:5%;
+	z-index:100;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	border-radius:5px 5px 0px 0px;
+	border:1px solid #66757f;
+}
+
+.socials_container
+{
+	width:90%;
+	background-color:rgba(0,0,0,0.7);
+	
+	position: fixed;
+	bottom:0;
+	left:5%;
+	z-index:100;
+	
+	border:1px solid #66757f;
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social_top_18
+{
+	float:left;
+	width:18%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.social_top_16
+{
+	float:left;
+	width:16%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.yt
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 29px;
+
+}
+.yt:hover
+{
+	color:#c4302b;
+}
+
+.sp
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 29px;
+
+}
+
+.sp:hover
+{
+	color:#1db954;
+}
+
+.am
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 29px;
+
+}
+.am:hover
+{
+	color:#000;
+}
+
+.sc
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 29px;
+
+}
+.sc:hover
+{
+	color:#ff8800;
+}
+
+.ig
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 29px;
+
+}
+.ig:hover
+{
+	vertical-align: middle;
+	color: #d6249f;
+	color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.tw
+{
+	width: 100%;
+	height: 40px;
+	float:left;
+	font-size: 28.5px;
+
+}
+.tw:hover
+{
+	color:#1dcaff;
+}
+
+a.tilelink
+{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.font_info
+{
+	font-size:10px;
+	text-align:center;
+	width:100%;
+}
